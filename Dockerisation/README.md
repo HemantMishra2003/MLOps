@@ -4,7 +4,24 @@ https://mri-cancer-detector-production.up.railway.app
 # Dockerisation  full process.
 ___________________________________________________________________________________________________
 
-### our folder structure
+### 1. Our folder structure 
+ 
+│
+├── dockerization/
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   ├── README.md
+│
+├── app/
+│   ├── app.py
+│   ├── assets/
+│   └── model/
+│
+├── deployment/
+│   └── railway.md
+│
+└── README.md
+
 
 
 
