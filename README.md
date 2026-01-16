@@ -1,1 +1,1 @@
-mri-cancer-detector-production.up.railway.app
+mri-cancer-detectorproduction.up.railway.app
