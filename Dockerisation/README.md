@@ -6,21 +6,21 @@ ________________________________________________________________________________
 
 ### 1. Our folder structure 
  
-│
-├── dockerization/
-│   ├── Dockerfile
-│   ├── requirements.txt
-│   ├── README.md
-│
-├── app/
-│   ├── app.py
-│   ├── assets/
-│   └── model/
-│
-├── deployment/
-│   └── railway.md
-│
-└── README.md
+    │
+    ├── dockerization/
+    │   ├── Dockerfile
+    │   ├── requirements.txt
+    │   ├── README.md
+    │
+    ├── app/
+    │   ├── app.py
+    │   ├── assets/
+    │   └── model/
+    │
+    ├── deployment/
+    │   └── railway.md
+    │
+    └── README.md
 
 
 
