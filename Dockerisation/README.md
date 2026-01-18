@@ -36,7 +36,22 @@ Copying all project files into the container
 
 Final command to run the Streamlit app
 
-👉 This step packaged my entire ML project into a reproducible environment.
+👉 Dockerfile Code
+
+    FROM python:3.10-slim
+
+    WORKDIR /app
+- here we are makin the app folder inside the docker
+  
+      COPY requirements.txt .
+      RUN pip install --no-cache-dir -r requirements.txt
+
+      COPY . .
+- here  we are using copy function to put all my
+- folder structure into the docker inside app folder.
+
+      CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+
 
 
 
