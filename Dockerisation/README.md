@@ -28,13 +28,13 @@ Inside my project, I created a Dockerfile to containerize the entire application
 
 The Dockerfile included:
 
-Base Python image
+a. Base Python image
 
-Installation of requirements.txt
+b. Installation of requirements.txt
 
-Copying all project files into the container
+c. Copying all project files into the container
 
-Final command to run the Streamlit app
+d. Final command to run the Streamlit app
 
 👉 Dockerfile Code
 
